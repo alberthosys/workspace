@@ -1,0 +1,16 @@
+.contabilidad-content {
+  background-color: red;
+  height: 100vh;
+  display: flex;
+
+  .content {
+    background-color: yellow;
+    width: 85vw;
+    height: 100vh;
+  }
+
+  .submenu {
+    width: 15vw;
+    height: 100vh;
+  }
+}
