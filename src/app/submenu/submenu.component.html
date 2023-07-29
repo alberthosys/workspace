@@ -1,0 +1,6 @@
+<h1 *ngIf="label">{{label}}</h1>
+<div *ngFor="let item of subMenu" class="menu-content">
+  <div class="item" routerLink="{{item.url}}">
+    {{item.nombre}}
+  </div>
+</div>
